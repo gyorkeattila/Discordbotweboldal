@@ -1,0 +1,4 @@
+menűpontok:
+Kezdőlap
+Parancsok
+Rólunk
