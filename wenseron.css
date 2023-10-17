@@ -87,11 +87,14 @@ footer {
 
 #kkkk{
     text-align: center;
+    padding: 20px;
 
 }
 
 #pepe{
     text-align: center;
+    font-style: italic;
+    font-size:700;
     
 }
 
@@ -105,4 +108,195 @@ footer {
 
 #rolunk{
 
+}
+
+.profile-container {
+    background-image: url(pet.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    border: 1px solid #333
+}
+
+.profile {
+    
+    max-width: 30%;
+}
+
+.command-box {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: larger;
+}
+
+.command {
+    font-family: monospace;
+    margin-bottom: 10px;
+    color:white
+}
+
+#kepborito{
+    border: #333 5px solid 
+}
+
+.button-invite {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: dodgerblue;
+width: 200px;
+height: 50px;
+font-size: 20px;
+font-weight: 700;
+line-height: 36px;
+color: white;
+z-index: 1;
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 20px;
+border-radius: 5px;
+text-decoration: none;
+}
+
+#valami{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+}
+
+.indexbetuk {
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 650;
+    text-align: center;
+
+}
+
+.body-color{
+    background-color: rgb(49, 175, 255);
+}
+
+.nevek{
+    text-align: center;
+    font-weight: 750;
+    font-style: oblique;
+    color:aqua
+}
+
+.mostra{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 800;
+    padding: 5px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.dar{
+    margin-left: 50px;
+}
+.bar{
+    margin-right: 20px;
+}
+
+.nagybau{
+    background-image: url(dc.png);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    border: 1px solid #333
+}
+
+.lii{
+    text-align: center;
+    color: white;
+    font-size: 800;
+    font-weight: 600;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.pepepopo{
+    background-image: url(bg.jpg);
+    padding: 150px;
+    border: 1px solid #333
+}
+
+.ww {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 650;
+    text-align: center;
+
+}
+
+.ujdonsagokhatter{
+    background-image: url(uji.png);
+    padding: 50px;
+    border: 1px solid #333
+}
+
+.ujh1{
+    text-align: center;
+    padding: -10px;
+    font-size: 40px;
+}
+
+.ujh2{
+    text-align: justify;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.ujh2bot{
+    text-align: justify;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+    font-size: 40px;
+}
+.ujh2jatek{
+    text-align: justify;
+    color: #333;
+    text-align: right;
+    padding: 10px; 
+    font-size: 40px;
+}
+
+.pjobb{
+    text-align: right;
+    color: #333;
+    text-decoration:underline overline;
+    font-size: 20px;
+}
+
+.pbal{
+    text-align: left;
+    color: #333;
+    text-decoration:underline overline;
+    font-size: 20px;
+}
+
+.pkozep{
+    text-align: center;
+    color: #333;
+    text-decoration:underline overline;
+    font-size: 20px;
+}
+
+.ppkepre{
+    width: 450px;
+    height: auto;
 }

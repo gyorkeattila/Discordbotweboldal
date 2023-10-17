@@ -1,0 +1,18 @@
+    <h2 id="kezdes">Jelenlegi verzió parancsai:</h2>
+<p id="sorolaskezdes">-Adminisztrátori joghoz kötött:
+<ul id="sorolas">
+    =ban Felhasználó kitiltása a szerverről [=ban @Felhasználó]
+    <br><br>
+
+    =kick Felhasználó kirugása a szerverről [=kick @Felhasználó]
+    <br><br>
+
+    =unban Felhasználó kitiltásának feloldása [=unban @Felhasználó
+    <br><br>
+    
+    =rank Kért rang hozzáadása a felhasználónak [=rank @felhasznalónev @rankneve]
+    <br><br>
+    =clean Chat törlése [=clean 10 (sor)]
+    <br><br>
+    =warn (Fejlesztés alatt) Adott felhasználó figyelmeztetése
+</ul>
