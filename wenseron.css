@@ -98,18 +98,6 @@ footer {
     
 }
 
-#kezdolap{
-
-}
-
-#parancsok{
-
-}
-
-#rolunk{
-
-}
-
 .profile-container {
     background-image: url(pet.jpg);
     background-position: center center;
@@ -129,8 +117,9 @@ footer {
 .command-box {
     border: 1px solid #ccc;
     background-color: #f9f9f9;
-    padding: 20px;
     border-radius: 5px;
+    padding: 20px;
+    padding-right: 100px;
     text-align: center;
     font-size: larger;
 }
@@ -227,8 +216,8 @@ text-decoration: none;
 }
 
 .pepepopo{
-    background-image: url(bg.jpg);
-    padding: 150px;
+    background-image: url(indexbg.jfif);
+    padding: 160px;
     border: 1px solid #333
 }
 
@@ -243,7 +232,7 @@ text-decoration: none;
 .ujdonsagokhatter{
     background-image: url(uji.png);
     padding: 50px;
-    border: 1px solid #333
+    border: 1px solid #fff
 }
 
 .ujh1{
@@ -299,4 +288,46 @@ text-decoration: none;
 .ppkepre{
     width: 450px;
     height: auto;
+}
+
+.footer-city {
+    text-decoration: none;
+    color: white;
+}
+
+.hattergyik{
+    background-image: url(peee.jpg);
+    padding: 100px;
+    border: 1px solid #fff
+}
+
+.div1{
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+    font-variant: small-caps;
+}
+
+.kemenydiv{
+    text-align:center;
+    padding: -10px;
+    font-size: 40px;
+    color:#fff;
+}
+.dcc{
+    text-align: center;
+    font-size: 40px;
+    color:#fff;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.t3hatter{
+    background-image: url(ujb.jpg);
+    border: 1px solid #fff;
+    padding: 500px;
+}
+
+.gyorkekep{
+    padding-left: 150px;
 }

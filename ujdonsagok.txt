@@ -8,3 +8,22 @@ A gondolatok kiírása, dizájn minimális szerkesztése
 A dizájn rohamos fejlesztése a rólunk, parancs fülön, a kezdőlap gondolatainak át írása.
 2023.10.16:
 felul kis ikon, dizajn ujitgatasa
+
+rolunk/regi
+    <div class="profile-container" >
+        <div class="profile">
+            <p class="nevek" style="margin-left: 50px;">@lildariusz</p><br>
+            <p class="nevek" style="margin-left: 50px;">Porubszki Dáriusz</p>
+            <img id="kepborito" class="dar"src="dariusz.png" alt="Profilkép 1" title="dariusz" style="margin-bottom: -120px; margin-left: 50px;" >
+        </div>
+        <div class="profile">
+            <p class="nevek" style="margin-left: -150px; padding: 20px;">Györke Attila</p>
+            <img id="kepborito" src="gyorke.png" alt="Profilkép 2" style="margin-left: -150px;">
+            <p class="nevek" style="margin-left: -150px; padding: 20px;">@wenseron</p>
+        </div>
+        <div class="profile">
+            <img id="kepborito" class="bar" src="barczi.png" alt="Profilkép 3" style="margin-top: -150px; margin-left: -120px;">
+            <p class="nevek" style="margin-left: -120px;">Bárczi Dávid</p><br>
+            <p class="nevek" style="margin-left: -120px;">@Kekszh</p>
+        </div>
+    </div>
