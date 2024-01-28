@@ -118,10 +118,10 @@ footer {
     border: 1px solid #ccc;
     background-color: #f9f9f9;
     border-radius: 5px;
-    padding: 20px;
     padding-right: 100px;
     text-align: center;
     font-size: larger;
+    padding-top: 70px;
 }
 
 .command {
@@ -158,6 +158,17 @@ text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     width: 17%;
+    transition: 1s;
+}
+#valami img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#valami:hover{
+transform: scale(1.1);
+z-index: 2;
 }
 
 .indexbetuk {
@@ -218,7 +229,7 @@ text-decoration: none;
 .pepepopo{
     background-image: url(indexbg.jfif);
     padding: 160px;
-    border: 1px solid #333
+    border: 1px solid #333;
 }
 
 .ww {
@@ -231,7 +242,7 @@ text-decoration: none;
 
 .ujdonsagokhatter{
     background-image: url(uji.png);
-    padding: 50px;
+    padding-top: 77px;
     border: 1px solid #fff
 }
 
@@ -296,6 +307,17 @@ text-decoration: none;
     transition: 0.3s;
 }
 
+.ppkepre img{
+    display: block;
+    width: 100%;
+    border-radius:5px ;
+}
+
+.ppkepre:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
 .footer-city {
     text-decoration: none;
     color: white;
@@ -358,6 +380,16 @@ text-decoration: none;
     transition: 0.3s;
 }
 
+#hatterss img{
+    display: block;
+    width: 100%;
+    border-radius:5px;
+}
+
+#hatterss:hover{
+    transform: scale(1.5);
+    z-index: 2;
+}
 .h1okos{
     color: white;
     font-size: 2vw;
@@ -366,3 +398,98 @@ text-decoration: none;
     transition: 0.3s;
 }
 
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background-color:  #333;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: #333;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+.miniimage{
+    width: 20px;
+    border-radius: 20%;
+    border: 20px;
+}
+.wensi{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s;
+    cursor: .4s step-end infinite alternate;
+    -webkit-text-stroke: 0.03vw #25AFFE;
+}
+
+@keyframes cursor{
+    50%{ border-color: transparent;}
+}
+
+@keyframes typing{
+    from {width: 0;}
+}
+
+.hattereaster{
+    background-image: url(268451.jpg);
+    border: 1px solid #fff;
+    padding: 100px;
+}
+
+.ujjj{
+    rotate: 30deg;
+}
+
+.ujh11{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.easter{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px ;
+    padding-bottom:20px ;
+}
+
+.geri{
+    margin: auto;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    width: 200px;
+    animation: typing 2s;
+    cursor: .4s step-end infinite alternate;
+}
+
+.geri img{
+    display: block;
+    width: 100%;
+    border-radius:5px ;
+}
+
+.geri:hover{
+    transform: scale(11.5);
+    z-index: 2;
+}
+
+.easters{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px ;
+    padding-bottom:20px ;
+    border: 10px black;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
