@@ -118,16 +118,17 @@ footer {
     border: 1px solid #ccc;
     background-color: #f9f9f9;
     border-radius: 5px;
-    padding-right: 100px;
+    padding-right: 0px;
     text-align: center;
     font-size: larger;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .command {
     font-family: monospace;
     margin-bottom: 10px;
-    color:white
+    color:white;
+    text-align: center;
 }
 
 #kepborito{
@@ -228,7 +229,7 @@ z-index: 2;
 
 .pepepopo{
     background-image: url(indexbg.jfif);
-    padding: 160px;
+    padding: 101px;
     border: 1px solid #333;
 }
 
@@ -240,15 +241,10 @@ z-index: 2;
 
 }
 
-.ujdonsagokhatter{
-    background-image: url(uji.png);
-    padding-top: 77px;
-    border: 1px solid #fff
-}
-
 .ujh1{
     text-align: center;
-    padding: -10px;
+    padding-top: -10px;
+    padding-bottom: 0px;
     font-size: 40px;
 }
 
@@ -321,6 +317,10 @@ z-index: 2;
 .footer-city {
     text-decoration: none;
     color: white;
+    width: auto;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
 }
 
 .hattergyik{
@@ -492,4 +492,397 @@ ul li:hover ul.dropdown{
     padding: 10px;
     margin: 10px;
     width: 100%;
+}
+
+.lenyilo{
+    width: auto;
+    position: relative;
+    border-radius: 20%;
+}
+
+.lenyilo a{
+    transition: 0.3s;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lenyilo a:hover{
+    background-color: #25AFFE;
+    text-decoration: none;
+    color: #fff;
+    padding: 2px;
+    border-radius: 2%;
+}
+
+.liia{
+    text-align: center;
+    color: white;
+    font-size: 800;
+    font-weight: 600;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    display: block;
+    transition: 0.3s;
+}
+
+.liia a{
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    transition: 0.3s;}
+
+.liia a:hover{
+    background-color: #25AFFE;
+    text-decoration: none;
+    color: #fff;
+    padding: 2px;
+    border: 1px solid #25AFFE;
+    transition: 0.3s;
+    border-radius: 3%;
+}
+
+
+.cel{
+    padding: 88px;
+    color: #333;
+    background-color: #333;
+    transition: 0.3s;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.cella{
+    color: #25AFFE;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+.video-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@-webkit-keyframes glow{
+from {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073;
+}
+to {
+  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6;
+}
+}
+
+.tuktuk{
+    background-image: linear-gradient(to right,#12dde4,#25AFFE)!important;
+    padding: 64px 0;
+    position: relative;
+}
+
+.rovasiras{
+    color: #fff!important;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: -1.056px;
+    text-align: center;
+}
+
+.iop{
+        margin: 0 auto;
+        max-width: 1440px;
+}
+
+.partner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+}
+
+.brand{
+    max-width: 11.985714%;
+    max-height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figure{
+    margin: 0 0 1rem;
+}
+
+.imgindex{
+    max-width: 100%;
+    max-height: 60px;
+    object-fit: contain;
+    justify-content: center;
+}
+
+.accordionn {
+    margin: 20px auto; 
+    max-width: 100%; 
+    width: 90%; 
+}
+
+.accordionn li {
+    list-style: none;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e3edf7;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.accordionn li label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+label::before {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.accordionn .moree {
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordionn input[type="checkbox"]:checked + label + .moree {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+.accordionn input[type="checkbox"] + label::before {
+    content: '+';
+}
+
+.accordionn input[type="checkbox"]:checked + label::before {
+    content: '-';
+}
+
+.accordionn input[type="checkbox"]:not(:checked) + label + .moree {
+    max-height: 0;
+    padding: 0;
+}
+
+.floating-btn {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .accordionn {
+        max-width: 600px;
+    }
+
+    .floating-btn {
+        display: block;
+        position: fixed;
+        right: -80px;
+        background: linear-gradient(90deg, #12e0e7 .23%, #25AFFE 99.72%);
+        padding: 8px 20px;
+        transform: rotate(90deg);
+        z-index: 2;
+        border-radius: 0 0 10px 10px;
+        top: 50%;
+    }
+}
+
+.floatbut{
+    text-align: center;
+}
+
+.floatbut a{
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    color: white;}
+
+.floatbut a:hover{
+    background-color: #25AFFE;
+    text-decoration: none;
+    color: #fff;
+    padding: 2px;
+    border: 1px solid #25AFFE;
+    transition: 0.3s;
+    border-radius: 3%;
+}
+
+
+.egyenloseg{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    transition: all .25s ease-in-out;
+}
+
+.bodyclass{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+.bodyclass h1{
+    margin-bottom: 2rem;
+}
+
+.bodyclass form{
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+
+.bodyclass input,
+select,
+textarea{
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.bodyclass textarea{
+    height: 6rem;
+}
+
+.bodyclass button{
+    width: 8rem;
+    padding: 1.4rem;
+    cursor: pointer;
+    background: #673de6;
+    color: white;
+    text-align: center;
+}
+
+.liii{
+    text-align: center;
+    color: white;
+    font-size: 800;
+    font-weight: 600;
+    padding: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.liiaa{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+.liiaa a{
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.liiaa a:hover{
+    background-color: #d20b36;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #d20b36;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.ujdonsagokhatter{
+    background-image: url(html-color-codes-color-tutorials-hero.jpg);
+    padding-top: 110px;
+    padding-bottom: 110px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.tenyleghatter{
+    background-image: url(uji.png);
+    padding-top: 135px;
+    padding-bottom: 135px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.footerhover{
+    color: white;
+    display:inline;
+}
+
+.footerhover a{
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    transition: 0.5s;}
+
+.footerhover a:hover{
+    background-color: #25AFFE;
+    text-decoration: none;
+    color: #fff;
+    padding: 0px;
+    border: 1px solid #25AFFE;
+    transition: 0.3s;
+    border-radius: 3%;
 }

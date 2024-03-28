@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width,  
+                   initial-scale=1.0" />
+    <title>Szókeverő</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="icon.webp">
+    <link href="szojatek.css" rel="stylesheet" />
+</head>
+<header class="header">
+    <nav class="navbar">
+      <a href="ujdonsagok.html">Vissza</a>
+    </nav>
+  </header>
+<body>
+    <div class="root">
+        <h1 class="title">Szókeverő Játék</h1>
+        <div id="scrambled">
+            <h2 id="scrambleWord">Szó</h2>
+            <p id="hint"></p>
+        </div>
+        <div id="form">
+            <input id="input"
+                   type="text"
+                   placeholder="Tipp" />
+        </div>
+        <h3 id="output">Eredmény:</h3>
+        <div class="foot">
+            <button type="button"
+                    onclick="check()">
+                Küldés
+            </button>
+            <button type="button"
+                    onclick="refresh()">
+                Frissítés
+            </button>
+        </div>
+        <script src="szojatek.js"></script>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+crossorigin="anonymous"></script>
+</html>

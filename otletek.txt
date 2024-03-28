@@ -2,3 +2,24 @@ menűpontok:
 Kezdőlap
 Parancsok
 Rólunk
+
+            <div class="div1">
+                Hogyan kell használni?:<br>
+                A Discord üzeneteknél írsz egy = jelet.
+            </div>
+            <div class="div1">
+                <br>Ingyenes a Bot?:<br>
+                Igen, ingyenes.
+            </div>
+            <div class="div1">
+                <br>Játék hogyan áll kapcsolatban a bottal?:<br>
+                A játékos mint karaktert egy wenseron botot írányit.
+            </div>
+            <div class="div1">
+                <br>Ingyenes a Játék?:<br>
+                Igen, a játék is ingyenes.
+            </div>
+            <div class="div1">
+                <br>A weboldal miért kell egy játéknak és egy botnak?<br>
+                A játéknak, és a botnak is sokkal nagyobb a népszerűsége, ha van weboldal.
+            </div>

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(html-color-codes-color-tutorials-hero.jpg) ;
+    background-size: cover;
+    align-items: center;
+    min-height: 50vh;
+}
+ 
+.root {
+    padding: 10px;
+    font-size: x-large;
+    color: pink;
+    margin-top: 160px;
+    text-align: center;
+    letter-spacing: 2px;
+    height: 100%;
+}
+ 
+.title {
+    margin-top: 110px;
+    font-size: 78px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#scrambled{
+    margin-top: 20px;
+}
+#scrambleWord{
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#hint{
+    color: pink;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+ 
+input {
+    font-size: 20px;
+    padding-left: 10px;
+    outline: 2px grey;
+}
+#output{
+    color: rgb(255, 216, 216);
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+ 
+.foot {
+    margin-bottom: 0%;
+    display: flex;
+    width: 100%;
+}
+ 
+.foot>button {
+    width: 48%;
+    padding: 1%;
+    margin: 1%;
+    background-color:pink;
+    border-radius: 5px;
+    border-color:pink;
+    font-size: large;
+}
+
+.navbar a{
+      letter-spacing: 2px;
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      text-align: left;
+  }
+
+.header{
+    padding-top: 10px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size:x-large;
+}
